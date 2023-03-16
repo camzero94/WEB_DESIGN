@@ -1,0 +1,509 @@
+body {
+  position: absolute;
+  width: 1920px;
+  height: 1097px;
+  left: 0px;
+  top: -17px;
+  background-image: url('./Materials/Backgorund.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.logo {
+  background-image: url('./Materials/Icons/Logo.png');
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 140px;
+  top: 74px;
+}
+
+.pet_ink {
+  position: absolute;
+  height: 40px;
+  left: 10%;
+  right: 80.26%;
+  top: calc(50% - 40px / 2 - 449px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+
+.menu {
+  float: right;
+
+  position: absolute;
+  height: 26px;
+  left: 36.09%;
+  top: calc(50% - 26px / 2 - 439px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 37px;
+}
+
+.search_icon {
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 1675px;
+  top: 85px;
+
+  z-index: 1;
+}
+
+.search_bar_blank {
+  position: absolute;
+  width: 216px;
+  height: 40px;
+  left: 1498px;
+  top: 79px;
+
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 80px;
+}
+
+.search_bar_text {
+  position: absolute;
+  width: 216px;
+  height: 36px;
+  left: 15px;
+  top: 2px;
+  z-index: 1;
+}
+
+.account_icon {
+  background-repeat: no repeat;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1735px;
+  top: 78px;
+}
+
+.pet {
+  position: absolute;
+  width: 554px;
+  height: 480px;
+  left: 1158px;
+  top: 258px;
+
+  background: url(./Materials/Pets/PetHome.png);
+}
+
+h1 {
+  position: absolute;
+  height: 299px;
+  left: 7.29%;
+  right: 57.71%;
+  top: calc(50% - 299px / 2 - 94.5px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p {
+  position: absolute;
+  height: 94px;
+  left: 7.45%;
+  right: 59.79%;
+  top: calc(50% - 94px / 2 + 102px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.get_your_pet_text {
+  position: absolute;
+  height: 37px;
+  left: 8.7%;
+  right: 79.43%;
+  top: calc(50% - 37px / 2 + 281.5px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 2px;
+
+  color: #111111;
+
+  z-index: 1;
+}
+
+.get_your_pet_button {
+  position: absolute;
+  width: 277px;
+  height: 60px;
+  left: 143px;
+  top: 791px;
+
+  background: rgba(255, 255, 255, 0.69);
+  border-radius: 80px;
+}
+
+.make_friends_text {
+  position: absolute;
+  height: 42px;
+  left: 33.59%;
+  right: 53.23%;
+  top: calc(50% - 42px / 2 + 270px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  z-index: 1;
+}
+
+.make_friends_line {
+  position: absolute;
+  width: 309px;
+  height: 0px;
+  left: 609px;
+  top: 841.04px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(-0.19deg);
+
+  z-index: 1;
+}
+
+.make_friends_description {
+  position: absolute;
+  height: 83px;
+  left: 30.57%;
+  right: 50.42%;
+  top: calc(50% - 83px / 2 + 363.5px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  z-index: 1;
+}
+
+.make_friends_icon {
+  background: url(./Materials/Icons/FriendsIcon.png);
+  /* display: none; */
+  position: absolute;
+  width: 221px;
+  height: 206px;
+  left: 652px;
+  top: 950px;
+
+  z-index: 1;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.make_friends_rectangle {
+  position: absolute;
+  width: 395px;
+  height: 412px;
+  left: 565px;
+  top: 777px;
+
+  background: rgba(239, 170, 173, 0.6);
+  backdrop-filter: blur(35px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.make_friends:hover >.make_friends_rectangle {
+  /* background-color: yellow; */
+  /* animation-iteration-count: 1; */
+  animation: moveUp 2s ;
+}
+.make_friends:hover >.make_friends_icon{
+  /* background-color: yellow; */
+  display:visible;
+  /* animation-iteration-count: 1; */
+  animation: moveUp 2s ;
+}
+.make_friends:hover >.make_friends_text{
+  /* background-color: yellow; */
+  /* animation-iteration-count: 1; */
+  animation: moveUp 2s ;
+}
+.make_friends:hover >.make_friends_line{
+  /* background-color: yellow; */
+  /* animation-iteration-count: 1; */
+  animation: moveUp 2s ;
+}
+.make_friends:hover >.make_friends_description{
+  /* background-color: yellow; */
+  /* animation-iteration-count: 1; */
+  animation: moveUp 2s ;
+}
+
+/* Hover Out */
+/* .make_friends:not(hover) >.make_friends_rectangle { */
+/*   /* background-color: yellow; */ */
+/*   animation-iteration-count: 1; */
+/*   animation: moveDown 2s ; */
+/* } */
+/* .make_friends:not(hover) >.make_friends_icon{ */
+/*   /* background-color: yellow; */ */
+/*   display:visible; */
+/*   animation-iteration-count: 1; */
+/* animation: moveDown 2s ; */
+/* } */
+/* .make_friends:not(hover) >.make_friends_text{ */
+/*   /* background-color: yellow; */ */
+/*   animation-iteration-count: 1; */
+/* animation: moveDown 2s ; */
+/* } */
+/* .make_friends:not(hover) >.make_friends_line{ */
+/*   /* background-color: yellow; */ */
+/*   animation-iteration-count: 1; */
+/* animation: moveDown 2s ; */
+/* } */
+/* .make_friends:not(hover) >.make_friends_description{ */
+/*   /* background-color: yellow; */ */
+/*   animation-iteration-count: 1; */
+/* animation: moveDown 2s ; */
+/* } */
+
+.new_pets_weekly_text {
+  position: absolute;
+  height: 42px;
+  left: 52.86%;
+  right: 30.42%;
+  top: calc(50% - 42px / 2 + 170px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  z-index: 1;
+}
+
+.new_pets_weekly_line {
+  position: absolute;
+  width: 309px;
+  height: 0px;
+  left: 1016px;
+  top: 754.04px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(-0.19deg);
+
+  z-index: 1;
+}
+
+.new_pets_weekly_description {
+  position: absolute;
+  height: 83px;
+  left: 51.88%;
+  right: 29.11%;
+  top: calc(50% - 83px / 2 + 277.5px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  z-index: 1;
+}
+
+.new_pets_weekly_icon {
+  background: url(./Materials/Pets/PetNew.png);
+  position: absolute;
+  width: 171px;
+  height: 201px;
+  left: 1080px;
+  top: 859px;
+
+  z-index: 1;
+}
+
+.new_pets_weekly_rectangle {
+  position: absolute;
+  width: 395px;
+  height: 463px;
+  left: 977px;
+  top: 626px;
+
+  background: rgba(239, 170, 173, 0.6);
+  backdrop-filter: blur(35px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.easy_to_customize_text {
+  position: absolute;
+  height: 42px;
+  left: 75%;
+  right: 6.98%;
+  top: calc(50% - 42px / 2 + 230px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+  z-index: 1;
+}
+
+.easy_to_customize_line {
+  position: absolute;
+  width: 309px;
+  height: 0px;
+  left: 1446px;
+  top: 821.04px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(-0.19deg);
+
+  z-index: 1;
+}
+
+.easy_to_customize_description {
+  position: absolute;
+  height: 83px;
+  left: 75.26%;
+  right: 5.73%;
+  top: calc(50% - 83px / 2 + 352.5px);
+
+  font-family: 'Public Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2px;
+
+  color: #ffffff;
+
+  z-index: 1;
+}
+
+.easy_to_customize_icon {
+  background: url(./Materials/Pets/PetCustomize.png);
+  position: absolute;
+  width: 157px;
+  height: 141px;
+  left: 1542px;
+  top: 914px;
+
+  z-index: 1;
+}
+
+.easy_to_customize_rectangle {
+  position: absolute;
+  width: 395px;
+  height: 425px;
+  left: 1415px;
+  top: 664px;
+
+  background: rgba(239, 170, 173, 0.6);
+  backdrop-filter: blur(35px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  target: '_self';
+  text-decoration: none;
+  color: #ffffff;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  width: 150px;
+  height: 36px;
+}
+
+span.keeptogether {
+  white-space: nowrap;
+}
